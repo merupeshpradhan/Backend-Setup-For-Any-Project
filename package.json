@@ -1,0 +1,19 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "Backend learning - Rupesh",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "Backend"
+  ],
+  "author": "Rupesh Pradhan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
