@@ -22,3 +22,10 @@ Webiste For .gitignore serise
 ```
 -> npm i -D nodemon
 ```
+
+### npm Install
+
+```
+-> npm i mongoose express dotenv
+
+```
