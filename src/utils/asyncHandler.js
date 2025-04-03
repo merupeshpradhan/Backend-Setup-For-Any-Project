@@ -6,6 +6,16 @@ const asyncHandler = (requestHandler) => {
 
 export { asyncHandler };
 
+/* After Seeing chatgpt */
+
+// const asyncHandler = (requestHandler) => {
+//   return (req, res, next) => {
+//     Promise.resolve(requestHandler(req, res, next)).catch((err) => next(err));
+//   };
+// };
+
+// export { asyncHandler };
+
 /* Use Typing Types */
 
 // const asyncHandler = () => {};
