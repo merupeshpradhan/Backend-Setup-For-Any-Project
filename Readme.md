@@ -1,12 +1,28 @@
 # Backend series
 
-Webiste For .gitignore serise
+.gitignore Webiste
 
 - [website Link](https://mrkandreev.name/snippets/gitignore-generator/#Node)
 
-Link of Website NPM
+NPM Website Link
 
 - [website Link](https://www.npmjs.com/)
+
+Cloudinary Website Link
+
+- [website Link](https://www.npmjs.com/)
+
+multer github Link
+
+- [website Link](https://github.com/expressjs/multer)
+
+Thunderclient Link
+
+- [website Link](https://www.thunderclient.com/)
+
+Postman Downloads Link
+
+- [website Link](https://www.postman.com/downloads/)
 
 ### In side file in hp leptop Create js Files
 
@@ -47,5 +63,9 @@ Link of Website NPM
 (iii) npm i bcrypt
 
 (iv) npm i jsonwebtoken
+
+(v) npm i cloudinary
+
+(vi) npm i multer
 
 ```
