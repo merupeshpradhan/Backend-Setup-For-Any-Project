@@ -107,10 +107,16 @@ const loginUser = asyncHandler(async (req, res) => {
   // send cookie
 
   const { email, username, password } = req.body;
+  console.log("email: ", email);
 
-  if (!username || !email) {
+  if (!username && !email) {
     throw new ApiError(400, "Username or password is required");
   }
+
+  // This the other wahy to check if the username or email is empty
+  // if(!(username || email){
+  //   throw new ApiError(400, "Username or password is required");
+  // })
 
   const user = await User.findOne({
     $or: [{ username }, { email }],
